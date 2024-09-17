@@ -1,0 +1,28 @@
+{
+    "name": "redis_cache",
+    "version": "1.0.0",
+    "description": "\"this application is demo of redish cache \"",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "start": "node index.js",
+      "start:dev": "nodemon index.js"
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/shivrajkhetri7"
+    },
+    "keywords": [
+      "\"redis\""
+    ],
+    "author": "shivraj khetri",
+    "license": "ISC",
+    "dependencies": {
+      "axios": "^1.7.7",
+      "dotenv": "^16.4.5",
+      "express": "^4.19.2",
+      "nodemon": "^3.1.4",
+      "redis": "^4.7.0"
+    }
+  }
+  
